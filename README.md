@@ -30,3 +30,14 @@ ledger-core/
 └── tests/
     ├── unit/           # High-speed deterministic domain invariant tests
     └── integration/    # Concurrency and transactional isolation verification
+```
+
+---
+
+## Architecture Decision Records (ADRs)
+* [ADR-0001: Immutable Double-Entry Ledger Core Architecture](docs/adr/0001-immutable-double-entry-ledger.md)
+
+---
+
+## License
+MIT
