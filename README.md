@@ -1,5 +1,9 @@
 # ledger-core
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Architecture: Clean](https://img.shields.io/badge/Architecture-Clean%20%2F%20Hexagonal-informational)](docs/adr/0001-immutable-double-entry-ledger.md)
+[![Design: Double--Entry](https://img.shields.io/badge/Design-Double--Entry%20Ledger-success)](docs/adr/0001-immutable-double-entry-ledger.md)
+
 > High-reliability, double-entry financial transaction engine engineered for absolute auditability, concurrency safety, and zero data loss.
 
 ---
