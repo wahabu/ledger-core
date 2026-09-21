@@ -1,18 +1,23 @@
-# Environment variables & secrets
-.env
-.env.*
-*.pem
-*.key
-
-# Dependencies & build outputs
+# Dependencies
 node_modules/
+.pnp
+.pnp.js
+
+# Build Artifacts
 dist/
 build/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+
+# Testing & Coverage
 coverage/
 
-# OS & IDE metadata
+# OS & Editor Files
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
-*.log
